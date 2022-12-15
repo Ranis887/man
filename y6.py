@@ -1,0 +1,3 @@
+from reg import *
+
+register()
