@@ -1,0 +1,6 @@
+file = open("Names.txt", "a")
+name = input("Введите свое имя - ")
+file.write(name + "\n")
+file = open("Names.txt", "r")
+print(file.read())
+file.close()
